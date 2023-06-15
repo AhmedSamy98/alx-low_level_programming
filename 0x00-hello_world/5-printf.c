@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main -  0x00. C - Hello, World
- * Description : 4. Hello, puts
+ * Description : 5. Hello, printf
  * Return: 0
 */
 int main(void)
