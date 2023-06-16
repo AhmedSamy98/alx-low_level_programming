@@ -1,11 +1,13 @@
 #include <unistd.h>
 /**
  * main -  0x00. C - Hello, World
- * Description : 5. Hello, printf
- * Return: 0
+ * Description : 8. UNIX is basically a simple operating system,
+ * Return: 1
 */
 int main(void)
 {
-	char quo[] = ""
-	return (0);
+	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, quo, 59);
+	return (1);
 }
