@@ -8,7 +8,7 @@ int main(void)
 {
 	int digitA = 0;
 
-	int digitB. digitC;
+	int digitB, digitC;
 
 	while (digitA <= 9)
 	{
