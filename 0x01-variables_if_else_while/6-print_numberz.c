@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main -  0x01. C - Variables, if, else, while
- * Description : 5. Numbers
+ * Description : 6. Numberz
  * Return: 0
 */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 
 	while (digit <= 9)
 	{
-		printf("%i", digit);
+		putchar(digit + '0');
 		digit++;
 	}
 	putchar('\n');
