@@ -1,10 +1,12 @@
+#include <unistd.h>
 #include "main.h"
 /**
- * main -  Tasks
- * Description : 0x02. C - Functions, nested loops
- * Return: 0
-*/
-/* more headers goes there */
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
